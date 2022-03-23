@@ -1,23 +1,24 @@
 # Screech API
-Functionality supported:
 
-● Simple token based authentication.Authentication rules are supported.
-● Input validations for all the endpoints are added as per requirements.
-● Possible to retrieve a profile by its key
-● Possible to update a profile picture by itself
-● Possible to update an entire profile,
-● Possible to return a paged list of screeches
-	o Default sort order is creation date in descending order
-	o Can be requested in ascending order by creation date
-	o Can be filtered to return only screeches created by a specific user
-	o Default page size is 50, maximum is 500
-● Possible to return an individual screech by its key
-● Possible to create a new screech
-● Possible to update the text of a screech
+**Functionality supported:**
 
-Functionality not supported:
+ * Simple token based authentication.Authentication rules are supported.
+ * Input validations for all the endpoints are added as per requirements.
+ * Possible to retrieve a profile by its key
+ * Possible to update a profile picture by itself
+ * Possible to update an entire profile,
+ * Possible to return a paged list of screeches
+	* Default sort order is creation date in descending order
+	* Can be requested in ascending order by creation date
+	* Can be filtered to return only screeches created by a specific user
+	* Default page size is 50, maximum is 500
+ * Possible to return an individual screech by its key
+ * Possible to create a new screech
+ * Possible to update the text of a screech
 
-● Authorization rules are not implemented.
+**Functionality not supported:**
+
+* Authorization rules are not implemented.
 
 
 ## Prerequisites
