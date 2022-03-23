@@ -29,15 +29,14 @@
 
 
 ## Run the Application locally 
-
-to run the api locally execute **build.sh** file located in the root of folder which spins up the docker container.
+To run the api locally execute [build.sh](https://github.com/azirkande/ScreechApi/blob/main/build.sh) file located in the root of folder which spins up the docker container.
 You can make sure if the api running successfully by using url http://localhost:8080/HealthCheck
 
 ## Authentication
 
 Read Getting Base64 auth tokens section to know more about how to generate the auth token.
 
-Once you have token set the Auth header of the request as Bearer {tokenValue} (Bearer YW1yaXRhejpwYXNzMTIz)
+Once you have token set the Auth header of the request as Bearer {tokenValue}. E.g. **Bearer YW1yaXRhejpwYXNzMTIz**
 
 If using Postman just use Bearer token option for authentication.
 
@@ -65,7 +64,7 @@ Format used to create base64 token is as following
 
 {userName}:{secret}
 
-so for exampple if user name is 'amritaz' and secret is 'demo123' then string to be encoded should be the format of 'amritaz:demo123'
+so for exampple if user name is **amritaz** and secret is **demo123** then string to be encoded should be the format of **amritaz:demo123**
 
 For quick testing you can use following token with userName as 'amritaz' and secret as 'pass123'
 Test encoded token : YW1yaXRhejpwYXNzMTIz
