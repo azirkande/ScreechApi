@@ -41,6 +41,7 @@
 - [.NET Core 5.0 or higher](https://dotnet.microsoft.com/download/dotnet-core)
 - [VisualStudio 16.8 or higher] (https://devblogs.microsoft.com/dotnet/announcing-net-5-0/)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- [Solution file](https://github.com/azirkande/ScreechApi/blob/main/App/Screechr.sln) is located under the App folder to open the project in Visual studio.
 
 
 ## Run the Application locally 
