@@ -66,7 +66,8 @@ Format used to create base64 token is as following
 
 so for exampple if user name is **amritaz** and secret is **demo123** then string to be encoded should be the format of **amritaz:demo123**
 
-For quick testing you can use following token with userName as 'amritaz' and secret as 'pass123'
-Test encoded token : YW1yaXRhejpwYXNzMTIz
-This means while creating a new user set the user name to 'amritaz' and secret to 'pass123'
+* For quick testing you can use following token with userName as 'amritaz' and secret as 'pass123'
+* Test encoded token : YW1yaXRhejpwYXNzMTIz
+
+**NOTE**: This means while creating a new user set the user name to 'amritaz' and secret to 'pass123'
 
