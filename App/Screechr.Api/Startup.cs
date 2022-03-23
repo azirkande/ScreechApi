@@ -37,7 +37,7 @@ namespace Screechr.Api
             services.AddAuthentication(options => options.DefaultScheme = AuthConstants.SchemeName)
                     .AddScheme<BasicAuthSchemeOptions, BasicAuthenticationHandler>(AuthConstants.SchemeName, options =>
                     {
-                        options.UserInfoEndpoint = "";
+                  
                     });
           
 
