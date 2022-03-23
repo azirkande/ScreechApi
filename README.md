@@ -30,7 +30,7 @@
 
 ## Run the Application locally 
 
-to run the api locally execute build.sh file located in the root of folder which spins up the docker container.
+to run the api locally execute **build.sh** file located in the root of folder which spins up the docker container.
 You can make sure if the api running successfully by using url http://localhost:8080/HealthCheck
 
 ## Authentication
