@@ -48,6 +48,11 @@
 To run the api locally execute [build.sh](https://github.com/azirkande/ScreechApi/blob/main/build.sh) file located in the root of folder which spins up the docker container.
 You can make sure if the api running successfully by using url http://localhost:8080/HealthCheck
 
+## Testing 
+
+There are end to end tests wriiten for Controller endpoints
+Unit tests are written for AuthManager functionality.
+
 ## Authentication
 
 Read Getting Base64 auth tokens section to know more about how to generate the auth token.
