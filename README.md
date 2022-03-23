@@ -20,6 +20,21 @@
 
 * Authorization rules are not implemented.
 
+## Local Endpoints
+
+ ### Screech CRUD
+
+* Create (Needs to be Authenticated) : http://localhost:8080/api/screech/add/{userId)   
+* Update (Needs to be Authenticated)  : http://localhost:8080/api/screech/edit-screech/{userId}/{screechId}
+* Get (Needs to be Authenticated)  : http://localhost:8080/api/screech/{ScreechId}
+* Filter : http://localhost:8080/api/screech/filter
+
+### User CRUD 
+
+* Create : http://localhost:8080/api/user/add/
+* Update (Needs to be Authenticated) : http://localhost:8080/api/user/update{userId}
+* Get (Needs to be Authenticated) : http://localhost:8080/api/user/profile/{userId}
+* Upodate Profile   (Needs to be Authenticated) : http://localhost:8080/api/user/update-profile-picture/{userId}
 
 ## Prerequisites
 
